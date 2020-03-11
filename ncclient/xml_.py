@@ -53,6 +53,16 @@ NXOS_IF = "http://www.cisco.com/nxos:1.0:if_manager"
 TAILF_AAA_1_1 = "http://tail-f.com/ns/aaa/1.1"
 #: Namespace for Tail-f execd data model
 TAILF_EXECD_1_1 = "http://tail-f.com/ns/execd/1.1"
+#: Namespace for Tail-f transactions
+TAILF_NS = "http://tail-f.com/ns/netconf/transactions/1.0"
+#: Namespace for Tail-f Inactive
+TAILF_NS_INACTIVE = "http://tail-f.com/ns/netconf/inactive/1.0"
+#: Namespace for Tail-f NCS
+TAILF_NS_NCS = "http://tail-f.com/ns/netconf/ncs"
+#: Namespace for Tail-f Rollback
+TAILF_NS_ROLLBACK = "http://tail-f.com/ns/netconf/rollback"
+#: Namespace for Tail-f With transaction id
+TAILF_NS_WTI = "http://tail-f.com/ns/netconf/with-transaction-id"
 #: Namespace for Cisco data model
 CISCO_CPI_1_0 = "http://www.cisco.com/cpi_10/schema"
 #: Namespace for Flowmon data model
